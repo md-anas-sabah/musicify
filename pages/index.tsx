@@ -5,11 +5,11 @@ import Sidebar from "../components/Sidebar";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="bg-black h-screen overflow-hidden">
       <Head>
-        <title>Musicify 2.0</title>     
+        <title>Musicify 2.0</title>
       </Head>
-      <main>
+      <main className="">
         <Sidebar />
         {/* Center */}
       </main>
