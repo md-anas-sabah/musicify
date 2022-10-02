@@ -25,7 +25,7 @@ async function refreshAccessToken(token) {
   }
 }
 
-export const NextAuth = {
+export const authOptions = {
   // Configure one or more authentication providers
   providers: [
     SpotifyProvider({
