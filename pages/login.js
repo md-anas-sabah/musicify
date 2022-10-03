@@ -7,7 +7,7 @@ function Login({ providers }) {
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEl8aFib9z2ek3C3NO49lJWwfg_aORdaYxhA&usqp=CAU"
         alt="logo"
-        className="w-600 mb-5 rounded-full"
+        className="w-600 mb-5 rounded-full" 
       />
       {Object.values(providers).map((provider) => (
         <div key={provider.name}>
@@ -17,7 +17,7 @@ function Login({ providers }) {
               signIn(provider.id, { callbackUrl: "/" });
             }}
           >
-            Login with {provider.name}
+            Login with Musicify
           </button>
         </div>
       ))}
