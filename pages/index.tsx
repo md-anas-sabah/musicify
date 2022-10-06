@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Center from "../components/Center";
 import Sidebar from "../components/Sidebar";
 
 const Home: NextPage = () => {
@@ -9,9 +10,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Musicify 2.0</title>
       </Head>
-      <main className="">
+      <main className="flex">
         <Sidebar />
-        {/* Center */}
+        <Center />
       </main>
       <div>{/* Player */}</div>
     </div>
